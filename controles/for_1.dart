@@ -1,5 +1,5 @@
 main() {
-  // Este é o FOR mais comum.
+  // Este é o FOR mais comum..
   // Imprime os números de 1 a 10.
   for (int a = 1; a <= 10; a += 2) {
     print('a = $a');
