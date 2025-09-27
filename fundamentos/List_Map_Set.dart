@@ -9,9 +9,14 @@
 
 
 main() {
+<<<<<<< HEAD
 //--------------------------------------------------------------LIST--------------------------------------------------------------------
 
 
+=======
+
+//List
+>>>>>>> baffaf4ff53e2b7b56d4205093bb45aa0ff543af
 List aprovados = ['Ana','Carlos', 'Mateus','lima','warlley'];
 print(aprovados is List);
 print(aprovados);
@@ -25,6 +30,7 @@ print(aprovados1);
 print(aprovados1.elementAt(1));
 print(aprovados1[2]);
 
+<<<<<<< HEAD
 
 
 
@@ -34,6 +40,13 @@ var telefone = {
 
  // Chaves  -       valores      *ACEITA REPETIÇÃO!
    'joão'  : '+55 (65) 98129-4315', 
+=======
+//map
+var telefone = {
+
+ // Chaves  -       valores      *ACEITA REPETIÇÃO!
+   'joão'  : '+55 (65) 98129-4315',  
+>>>>>>> baffaf4ff53e2b7b56d4205093bb45aa0ff543af
    'geysse': '+55 (65) 94315-1453',
    'natan' : '+55 (65) 97612-1231',
 };
@@ -46,6 +59,7 @@ print(telefone.values);     // Todas as Valores (telefone) - (+55 (65) 98129-431
 print(telefone.entries);    // Chaves e valores (MapEntry(joão: +55 (65) 98129-4315),
 print(telefone.length);     // Quantidades Totais.
 
+<<<<<<< HEAD
 
 
 //--------------------------------------------------------------SET--------------------------------------------------------------------
@@ -63,6 +77,14 @@ print(times.add('SANTOS'));
 
 // Quantidades Totais.
 print(times.length);                      
+=======
+//set   *NÃO ACEITA REPETIÇÃO!
+var times = {'FLAMENTO','VASCO','SÃO PAULO','FORTALEZA'};
+print(times is Set);
+print(times.contains('FLAMENTO'));        // Conten na lista?
+print(times.add('SANTOS'));               // Adicionar na lista?
+print(times.length);                      // Quantidades Totais.
+>>>>>>> baffaf4ff53e2b7b56d4205093bb45aa0ff543af
     
  
 

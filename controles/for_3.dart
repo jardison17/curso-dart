@@ -33,7 +33,10 @@ main () {
 
 // Map<String, double> -> já define os tipos de dados que serão usados.
  Map<String, double> notas = {
+<<<<<<< HEAD
 //  (Nome)  - (notas)
+=======
+>>>>>>> baffaf4ff53e2b7b56d4205093bb45aa0ff543af
 //  CHAVES  - VALOR
    'Ana'   : 9.5,
    'Bia'   : 8.2,
@@ -44,6 +47,7 @@ main () {
  };
 //notas.keys -> Pega todas as chaves (nomes) do MAP
 for(String notas in notas.keys) {
+<<<<<<< HEAD
   /* imprimi tadas as chaves -> CHAVES (nomes)  */
   print("Nome do aluno é $notas");
 }
@@ -63,6 +67,16 @@ for(String nota in notas.keys) {
 for(var registro in notas.entries) {
   /* imprimi tadas as CHAVES com seus VALORES-> VALOR (notas)  */
   print("${registro.key} tem a ${registro.value}.");
+=======
+  /* imprimi tadas as chaves -> nomes (notas)  */
+  print("Nome do aluno é $notas");
+}
+
+//notas.values -> Pega todas os valores (nomes) do MAP
+for(var notas in notas.values) {
+  /* imprimi tadas as chaves -> nomes (notas)  */
+  print("Nome do nota é $notas");
+>>>>>>> baffaf4ff53e2b7b56d4205093bb45aa0ff543af
 }
     
 }
