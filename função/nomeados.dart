@@ -6,7 +6,7 @@ main() {
  // chamando a FUNÇÃO "saudarPessoa" e passando dois argumentos nomeados. no caso, nome e idade. -> (saudarPessoa(nome: 'maria', idade: 33);)
  saudarPessoa('maria', 33);
 
- saudarPessoa1(nomee: 'Eduarda',idadee:  40);
+//  saudarPessoa1(nomee: 'Eduarda',idadee:  40);
 
 
 } // FIM DO "MAIN"
@@ -19,6 +19,6 @@ saudarPessoa(String nome, int idade) {
 }
 
 // Aqui sim os parametros podem ser em qualquer ordem =  -> {int idadee, String nomee}.
-saudarPessoa1({String nomee, int idadee}) {
-  print('Olá, $nomee! Você tem $idadee anos.');
-}
+// saudarPessoa1({String nomee, int idadee}) {
+//   print('Olá, $nomee! Você tem $idadee anos.');
+// }
