@@ -28,3 +28,9 @@ void somaDoisNumerosQuaisquer() {
  print('Os valores sorteados foram: $n1 e $n2.'); // -> interpolação = mostra o valor que foi sorteado.
  print(n1 + n2); // -> imprime a soma dos dois números que foram sorteados.
 }
+
+// Nao passa nenhum parâmetro.
+void somaComPrint() {
+  print(a + b);
+}
+
