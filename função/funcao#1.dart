@@ -22,7 +22,6 @@ void somaComPrint(int a, int b) {
 }
 
 void somaDoisNumerosQuaisquer() {
-
  int n1 = Random().nextInt(11); // -> gera número aleatório entre 0 e 10
  int n2 = Random().nextInt(11); // -> gera número aleatório entre 0 e 10
  print('Os valores sorteados foram: $n1 e $n2.'); // -> interpolação = mostra o valor que foi sorteado.
