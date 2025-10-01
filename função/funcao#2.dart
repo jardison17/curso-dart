@@ -1,5 +1,5 @@
 import 'dart:math';
-// importando a biblioteca 'dart:math' para usar a função Random()
+// importa a biblioteca 'dart:math' para usar a função Random()
 
 main() {
   // Criando uma variável do tipo "int" chamada (resultado).
@@ -16,10 +16,12 @@ main() {
   somaDoisNumerosAleatios();
 } // FIM DO MAIN🔚
 
-// função com dois parâmetros obrigatórios. -> (int a, int b).
-// função que retorna um valor inteiro. -> (int).
-int soma(int a, int b) {
-  return a + b;
+// função que recebe dois parâmetros de entrada. tipo inteiro. -> (int y, int z).
+// função que retorna um valor tipo inteiro. -> (int).
+// usando a palavra reservada "return" para retornar o valor da soma de (y + z).
+// nao pode mudar o tipo de retorno da função. se for (int) tem que retornar um valor inteiro.
+int soma(int y, int z) {
+  return y + z;
 }
 
 // função que não retorna nenhum valor. -> (void)
