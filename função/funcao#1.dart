@@ -3,10 +3,11 @@ import 'dart:math';
 main() {
 
   somaComPrint(4, 3);  
-  // substitui as linhas abaixo -> (somaComPrint(4, 3);)
-  // int a = 4;
-  // int b = 1;
-  // print(a + b);
+// SUBTITUI O CÓDIGO ABAIXO.
+
+  /* int a = 4;
+     int b = 1;
+     print(a + b);*/
 
 
  // chamando a função e passando dois valores inteiros como argumentos. no caso, 4 e 5. -> (somaComPrint(4, 5);
@@ -16,29 +17,25 @@ main() {
 
   somaDoisNumerosQuaisquer();
 
-} //FIM DO MAIN
+} //FIM DO MAIN🔚
 
 //======================================================
 
-// "FUNÇÃO" QUE NÃO RETORNA NADA -> void✅
-// PORÉM RECEBE DOIS PARÂMETROS -> (int a, int b).
-// ESSES PARÂMETROS SAO OBRIGATÓRIOS.
 
-void somaComPrint(int a, int b) {
+// "FUNÇÃO" QUE NÃO RETORNA NADA -> void
+// NÃO RECEBE NENHUM PARÂMETRO -> ().
+void somaComPrint() {
   print(a + b);
 }
 
-
 //======================================================
 
- // "FUNÇÃO" QUE NAO RECEBE NENHUM PARÂMETRO.
- // O colchetes esta vazio -> ().
- // E não retorna nada -> void.
- //EX:
-
-  void somaComPrint() {
-   print(a + b);
-  }
+// "FUNÇÃO" QUE NÃO RETORNA NADA -> void
+// RECEBE DOIS PARÂMETROS -> (int a, int b).
+// ESSES PARÂMETROS SAO OBRIGATÓRIOS.
+void somaComPrint(int a, int b) {
+  print(a + b);
+}
 
 //======================================================
 
