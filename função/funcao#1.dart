@@ -15,11 +15,31 @@ main() {
   somaComPrint(c, d); 
 
   somaDoisNumerosQuaisquer();
-}
+
+} //FIM DO MAIN
+
+//======================================================
+
+// "FUNÇÃO" QUE NÃO RETORNA NADA -> void✅
+// PORÉM RECEBE DOIS PARÂMETROS -> (int a, int b).
+// ESSES PARÂMETROS SAO OBRIGATÓRIOS.
 
 void somaComPrint(int a, int b) {
   print(a + b);
 }
+
+
+//======================================================
+
+ // "FUNÇÃO" QUE NAO RECEBE NENHUM PARÂMETRO.
+ // O colchetes esta vazio -> ().
+ // E não retorna nada -> void.
+/*
+void somaComPrint() {
+  print(a + b);
+}
+*/
+//======================================================
 
 void somaDoisNumerosQuaisquer() {
  int n1 = Random().nextInt(11); // -> gera número aleatório entre 0 e 10
@@ -28,8 +48,5 @@ void somaDoisNumerosQuaisquer() {
  print(n1 + n2); // -> imprime a soma dos dois números que foram sorteados.
 }
 
-// Nao passa nenhum parâmetro.
-void somaComPrint() {
-  print(a + b);
-}
+
 
