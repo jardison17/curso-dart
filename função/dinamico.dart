@@ -1,5 +1,5 @@
 main() {
-  // chamando a função "juntar" e passando dois valores inteiros como argumentos. no caso, 1 e 9.
+  // chamando a função. "juntar" e passando dois valores inteiros como argumentos. no caso, 1 e 9.
   juntar(1, 9);
 
   // chamando a função "juntar" e passando dois valores "string" como argumentos. no caso, 'Olá, ' e 'mundo!'.
