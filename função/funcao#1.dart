@@ -34,11 +34,12 @@ void somaComPrint(int a, int b) {
  // "FUNÇÃO" QUE NAO RECEBE NENHUM PARÂMETRO.
  // O colchetes esta vazio -> ().
  // E não retorna nada -> void.
-/*
-void somaComPrint() {
-  print(a + b);
-}
-*/
+ //EX:
+
+  void somaComPrint() {
+   print(a + b);
+  }
+
 //======================================================
 
 void somaDoisNumerosQuaisquer() {
