@@ -8,7 +8,6 @@ main() {
   int n2 = numerosAleatorios1();
   print(n2);
 
-
   // chamando a FUNÇÃO "imprimirData" passando três argumentos. -> (imprimirData(12, 12, 1997);)
   imprimirData(12, 12, 1997);
 
@@ -22,25 +21,27 @@ main() {
   imprimirData();
 
   imprimirData1(12);
-
 } // FIM DO "MAIN"
 
 // FUNÇÃO que recebe um parâmetro opcional.
 int numerosAleatorios(int maximo) {
-  return Random().nextInt(maximo); // -> gera número aleatório entre 0 e (maximo - 1)
+  return Random().nextInt(
+    maximo,
+  ); // -> gera número aleatório entre 0 e (maximo - 1)
 }
+
 // FUNÇÃO que recebe um parâmetro opcional com valor padrão.
 int numerosAleatorios1([int maximo = 11]) {
-  // -> gera número aleatório entre 0 e (maximo - 1) 
+  // -> gera número aleatório entre 0 e (maximo - 1)
   return Random().nextInt(maximo);
 }
 
 // FUNÇÃO que recebe três parâmetros opcionais com valores padrão.
-imprimirData([int dia = 1, int mes = 1, int ano = 1970]) {
+imprimirData([int dia = 0, int mes = 0, int ano = 1970]) {
   print('$dia/$mes/$ano');
 }
 
-// FUNÇÃO que recebe um parâmetro obrigatório e dois parâmetros nomeados opcionais com valores padrão.
-imprimirData1(int dia1, {int mes1 = 1, int ano1 = 1970}) {
-  print('$dia1/$mes1/$ano1');
+// FUNÇÃO que recebe um parâmetro obrigatório, e dois parâmetros nomeados opcionais com valores padrão.
+imprimirData1(int dia1, {int mes1 = 0, int ano1 = 1970}) {
+  print('dia $dia1/mes $mes1/ano $ano1');
 }
