@@ -1,4 +1,4 @@
-// O OBJETO É ENTENDER OQUE É UM CONSTRUTOR OPCIONAIS.
+// O OBJETO É ENTENDER OQUE É UM CONSTRUTOR NOMEADOS.
 
 class DataSimples {
   int? dia;
@@ -7,7 +7,10 @@ class DataSimples {
 
   // CONSTRUTOR COM PARAMETROS OBRIGATORIOS.
   // THIS: REFERE-SE A VARIAVÉL PADRÃO QUE FOI CRIADA.
-  //
+
+  // EXEMPLO DE CONTRUTOR NOMEADO.
+  DataSimples.com({this.dia, this.mes, this.ano});
+  // EXEMPLO DE CONTRUTOR OPCIONAIS OBRIGATORIO.
   DataSimples([this.dia = 9, this.mes = 10, this.ano = 2029]);
 
   // FUNÇÃO QUE RETORNA A DATA FORMATADA.
@@ -77,6 +80,7 @@ main() {
   print(
     "Usando o retorno da função dataFormatada2 com interpolação: ${dataCompra.dataFormatada2()}",
   );
+
   print(new DataSimples());
   print(new DataSimples(11));
   print(new DataSimples(11, 10));
