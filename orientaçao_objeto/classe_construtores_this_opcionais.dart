@@ -7,7 +7,8 @@ class DataSimples {
 
   // CONSTRUTOR COM PARAMETROS OBRIGATORIOS.
   // THIS: REFERE-SE A VARIAVÉL PADRÃO QUE FOI CRIADA.
-  DataSimples(this.dia, this.mes, this.ano);
+  //
+  DataSimples([this.dia, this.mes, this.ano]);
 
   // FUNÇÃO QUE RETORNA A DATA FORMATADA.
   dataFormatada1() {
